@@ -1,0 +1,40 @@
+body {
+    background-color: purple;
+}
+
+main {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(121, 9, 9, 0.521);
+    text-align: center;
+}
+
+#buttonField {
+    align-content: right;
+}
+
+button {
+    color: black;
+    background-color: aqua;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+main>* {
+    margin: 8px;
+}
+
+th {
+    color: #555555;
+}
+
+th, td {
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+}
